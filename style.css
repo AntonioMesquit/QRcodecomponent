@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+
+/*font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    font-family: 'Montserrat';
+    background-color: #D6E1F0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+.img-container{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    width: 270px;
+    border-radius: 15px;
+}
+.box{
+    background-color: white;
+    width: 300px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    
+    
+}
+.textbox{
+    font-family: 'Fraunces';
+
+}
+.text1{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.text2{
+    color: rgba(0, 0, 0, 0.47);
+    padding: 20px;
+    font-size: 0.8em;
+}
